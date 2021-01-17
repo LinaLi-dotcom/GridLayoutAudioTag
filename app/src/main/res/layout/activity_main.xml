@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B6AFAF"
+    android:backgroundTint="#9E8F8F"
+    tools:context=".MainActivity">
+
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/gridView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:columnCount="2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:rowCount="4"
+        tools:ignore="ExtraText">
+
+        <Button
+            android:id="@+id/button"
+            android:background="#D1C5C5"
+            android:onClick="playPhrase"
+            android:tag="doyouspeakenglish"
+            android:text="DO YOU SPEAK \n ENGLISH?"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1"
+            tools:ignore="DuplicateIds" />
+
+        <Button
+            android:id="@+id/button"
+            android:background="#716C6C"
+            android:onClick="playPhrase"
+            android:tag="goodevening"
+            android:text="Good Evening"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1"
+            tools:ignore="DuplicateIds" />
+
+        <Button
+            android:id="@+id/button"
+            android:background="#716C6C"
+            android:onClick="playPhrase"
+            android:tag="hello"
+            android:text="hello"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1"
+            tools:ignore="DuplicateIds" />
+
+        <Button
+            android:id="@+id/button"
+            android:background="#716C6C"
+            android:onClick="playPhrase"
+            android:tag="howareyou"
+            android:text="how are you"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1"
+            tools:ignore="DuplicateIds" />
+
+        <Button
+            android:id="@+id/button"
+            android:background="#716C6C"
+            android:onClick="playPhrase"
+            android:tag="ilivein"
+            android:text="I live in..."
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1"
+            tools:ignore="DuplicateIds" />
+
+        <Button
+            android:id="@+id/button"
+            android:background="#716C6C"
+            android:onClick="playPhrase"
+            android:tag="mynameis"
+            android:text="My name is..."
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1"
+            tools:ignore="DuplicateIds" />
+
+        <Button
+            android:id="@+id/button"
+            android:background="#716C6C"
+            android:onClick="playPhrase"
+            android:tag="please"
+            android:text="Please"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1"
+            tools:ignore="DuplicateIds" />
+
+        <Button
+            android:id="@+id/button"
+            android:background="#716C6C"
+            android:onClick="playPhrase"
+            android:tag="welcome"
+            android:text="Welcome"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1"
+            tools:ignore="DuplicateIds" />
+
+
+    </androidx.gridlayout.widget.GridLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
